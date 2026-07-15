@@ -1,5 +1,13 @@
+import { CustomHeader } from "./components/CustomHeader"
+import { SearchBar } from "./components/SearchBar"
+
 export const App = () => {
   return (
-    <div>App</div>
+    <>
+      {/* Header */}
+      <CustomHeader title="Filmly" />
+      {/* SearchBar */}
+      <SearchBar placeholder="Busca una pelicula" />
+    </>
   )
 }
