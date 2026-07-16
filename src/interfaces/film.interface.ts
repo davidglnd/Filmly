@@ -6,7 +6,6 @@ export interface Film {
     poster_path: string;
     backdrop_path: string;
     release_date: string;
-    runtime: number;
     genres: Genre[];
     vote_average: number;
     vote_count: number;

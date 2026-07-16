@@ -13,36 +13,14 @@ h1 {
     text-align: center;
 }
 
-.content-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.montserrat-light {
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.montserrat-regular {
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.montserrat-bold {
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
 .search-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .search-container input {
@@ -121,10 +99,10 @@ h1 {
     gap: 10px;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin:5% auto;
 }
 
-.films-card {
+.film-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,10 +110,16 @@ h1 {
     margin-bottom: 50px;
 }
 
+.film-card p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .films-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 50%;
+    height: 50%;
     border-radius: 10px;
 }
 
