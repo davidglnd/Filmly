@@ -9,5 +9,7 @@ export const getFilmsByQuery = async (query: string, page: number = 1): Promise<
         }
     });
 
+    if (data.results.length === 0) return [];
+
     return data.results;
 };
